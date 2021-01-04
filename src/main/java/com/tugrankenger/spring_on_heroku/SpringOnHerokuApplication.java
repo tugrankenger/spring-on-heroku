@@ -18,6 +18,6 @@ public class SpringOnHerokuApplication {
 	class HelloController{
 		@GetMapping("/")
 		String hello(){
-			return "Hello Spring";
+			return "Spring-boot start on heroku";
 		}
 	}
